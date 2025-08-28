@@ -1,0 +1,14 @@
+import requests import base64 import time
+
+Automatic1111 WebUI API URL
+
+API_URL = "http://127.0.0.1:7860/sdapi/v1/txt2img"
+
+Directory to save generated frames
+
+SAVE_DIR = "./frames/"
+
+Frame prompts: all 78 frames
+
+frames = [ {"prompt": "Anime style, Tanjiro Kamado walking into misty forest at night, sword sheathed, cherry blossom petals falling, wide shot, camera pans left to right, cinematic lighting, tense atmosphere, Demon Slayer style", "negative_prompt": "blurry, bad anatomy, extra limbs, distorted face, off-model", "seed": 1001}, {"prompt": "Anime style, Tanjiro medium shot adjusting grip on sword, mist swirling around feet, subtle motion, cinematic anime lighting", "negative_prompt": "blurry, bad anatomy, extra limbs, distorted face, off-model", "seed": 1002}, {"prompt": "Anime style, close-up of Tanjiro face, determined expression, wind blowing hair, slight dolly-in camera, misty forest background", "negative_prompt": "blurry, bad anatomy, extra limbs, distorted face, off-model", "seed": 1003}, {"prompt": "Anime style, low-angle shot, sword half drawn, fog swirling around Tanjiro's feet, dramatic tension, moonlight glint on sword", "negative_prompt": "blurry, bad anatomy, extra limbs, distorted face, off-model", "seed": 1004}, {"prompt": "Anime style, full stance ready, sword glinting under moonlight, camera tilt up, cinematic shadows on face", "negative_prompt": "blurry, bad anatomy, extra limbs, distorted face, off-model", "seed": 1005}, {"prompt": "Anime style, medium shot, cherry blossoms drifting past Tanjiro, subtle motion blur, misty forest background", "negative_prompt": "blurry, bad anatomy, extra limbs, distorted face, off-model", "seed": 1006}, {"prompt": "Anime style, slight rotation view, Tanjiro scanning forest, sword angled, cinematic lighting, soft fog in background", "negative_prompt": "blurry, bad anatomy, extra limbs, distorted face, off-model", "seed": 1007}, {"prompt": "Anime style, wide shot, Tanjiro centered in forest, mist moving dynamically, camera dolly backward, cinematic anime style", "negative
+
